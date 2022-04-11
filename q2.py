@@ -1,10 +1,11 @@
 #!/usr/bin/python3
-# TODO: Do I really want to look for open files by their path
+
+# TODO: Do I really want to look for open files by their path?
+#       How about looking by inode number? (I think it is a 1:1 relationship)
 import subprocess
 import argparse
 import os
 from pprint import pprint
-LOG_PATH = "/tmp/lsof_out.log"
 
 # TODO: is this a good idea? (see my workaround next)
 LSOF_FILE_PATH_INDEX = -1
