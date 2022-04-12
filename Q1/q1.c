@@ -1,3 +1,5 @@
+//TODO: this code looks like a total disaster (Code duplication)
+//      How can I make it better?
 #include <unistd.h>
 #include <fcntl.h>
 #include <libgen.h>

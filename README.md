@@ -6,11 +6,14 @@ https://www.kernel.org/doc/html/latest/filesystems/proc.html
 #man proc
 https://www.slashroot.in/proc-file-system-linux-explained
 
+General linux internals
+https://0xax.gitbooks.io/linux-insides/content/
 
 * Q1
 * ---------
 * For a selected process, find all the files that are mapped to that process’s memory and which address it is mapped to. Create a script/program(bash/python/lua/c++) that does this.
 ** resources:
+/proc/pid/maps
 https://www.thegeekstuff.com/2012/08/lsof-command-examples/
 
 --------------

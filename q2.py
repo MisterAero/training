@@ -6,6 +6,7 @@ import subprocess
 import argparse
 import os
 from pprint import pprint
+# import psutil # implements process utilities without creating new process
 
 # TODO: is this a good idea? (see my workaround next)
 LSOF_FILE_PATH_INDEX = -1
